@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.cabecera li,a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color:azure;
+    width: 100%;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.Links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.Links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.Links a.activo{
+    color:darkblue
+}
+
+.Links li a:hover{
+    color:darkblue;
+}
+
+.cabecera button{
+    padding: 13px 25px;
+    background-color: rgba(241, 230, 177, 0.76);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cabecera button:hover{
+    background-color: rgba(238, 226, 167, 0.952);
+    color:darkblue;
+}
+
+/* La parte de mostrar la pantalla principal*/
+.cuento-principal{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../Imagenes/Portada4.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.cuento-principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.cuento-principal .titulo{
+    font-weight: 500;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.cuento-principal .descripcion{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+}
+
+.cuento-principal .boton{
+    background-color: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.cuento-principal .boton:hover{
+    background: #fff;
+    color: #000;
+}
