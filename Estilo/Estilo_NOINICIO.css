@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../Imagenes/FONDONOINICIO.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Aviso{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    background-color: #FDF6EE;
+    align-items: center;
+    font-size: 30px;
+}
+
+.texto{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Sesion{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+i{
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+    color:rgb(0, 0, 0);
+    margin-bottom: 25px;
+} 
+label, p{
+    font-size: 17px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.Sesion button{
+    padding: 13px 25px;
+    background-color: rgba(253, 171, 240, 0.76);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Sesion button:hover{
+    background-color: rgba(231, 123, 195, 0.952);
+    color:rgb(255, 255, 255);
+}
+
+a{
+    border: 1px;
+}

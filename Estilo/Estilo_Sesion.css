@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@500&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -50,6 +52,8 @@ input{
     font-size: 17px;
 }
 
+
+
 .btn-1{
     background-color: #00ADEF;
     font-size: 15px;
@@ -85,4 +89,18 @@ a{
     font-size: 17px;
     text-align: center;
     text-decoration: none;
+}
+
+.texto{
+    font-family: "Nunito Sans", sans-serif;
+}
+.Advertencia{
+    font-family: "Rubik", sans-serif;
+    background-color: lightpink;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 400;
+    border: 1px solid brown;
 }
